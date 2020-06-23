@@ -1,0 +1,50 @@
+{
+  "name": "Menu",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idMenu": {
+      "type": "number",
+      "required": true
+    },
+    "idRestaurant": {
+      "type": "number",
+      "required": true
+    },
+    "platillo": {
+      "type": "string",
+      "required": true
+    },
+    "guarnicion": {
+      "type": "string",
+      "required": true
+    },
+    "ingredientes": {
+      "type": "string",
+      "required": true
+    },
+    "acompanada": {
+      "type": "string",
+      "required": true
+    },
+    "tiempoPrep": {
+      "type": "string",
+      "required": true
+    },
+    "foto": {
+      "type": "string",
+      "required": true
+    },
+    "tipo": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
